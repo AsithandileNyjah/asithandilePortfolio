@@ -1,0 +1,35 @@
+.navbar-brand {
+    color: whitesmoke;
+    font-weight: 900;
+}
+.navbar-brand:hover {
+    color: cadetblue;
+}
+#headingOne {
+    background-image: url(https://i.postimg.cc/SQXCC56q/nate-grant-QQ9-Lain-S6t-I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.H1 {
+    font-weight: 900;
+    font-family: monospace;
+    color: whitesmoke;
+}
+.H4 {
+    font-weight: 900;
+    font-family: monospace;
+    color: whitesmoke;
+}
+
+#About {
+    background-color: rgba(239, 238, 240, 0.9);
+    color: black;
+    box-sizing: fit-content;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-self: center;
+}
+#navbar {
+    position: sticky;
+    top: 0px
+}
