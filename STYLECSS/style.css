@@ -1,35 +1,91 @@
 .navbar-brand {
-    color: whitesmoke;
+    color: whitesmoke !important;
     font-weight: 900;
+    text-decoration: none;
 }
 .navbar-brand:hover {
-    color: cadetblue;
+    color: cadetblue !important;
 }
 #headingOne {
-    background-image: url(https://i.postimg.cc/SQXCC56q/nate-grant-QQ9-Lain-S6t-I-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(https://i.postimg.cc/5NDx9fBZ/Matrix.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
 }
-.H1 {
-    font-weight: 900;
-    font-family: monospace;
+span {
+    color: whitesmoke;
+    font-weight: 500;
+}
+h1 {
     color: whitesmoke;
 }
-.H4 {
-    font-weight: 900;
-    font-family: monospace;
+h4 {
     color: whitesmoke;
-}
-
-#About {
-    background-color: rgba(239, 238, 240, 0.9);
-    color: black;
-    box-sizing: fit-content;
-    flex-wrap: wrap;
-    width: fit-content;
-    align-self: center;
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-weight: bolder;
 }
 #navbar {
     position: sticky;
-    top: 0px
+    top: 0px;
+}
+.profile {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: translate(20px, 20px);
+}
+
+.profile {
+    font-size: 24px;
+    font-weight: bold;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.welcome {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.welcome {
+    transition: transform 0.3s ease;
+}
+
+.welcome:hover {
+    transform: translate(20px, 20px);
+}
+
+.welcome {
+    font-size: 24px;
+    font-weight: bold;
+}
+.button {
+    border-radius: 25%;
+    text-align: center;
+    color: gray;
+    color: crimson;
+}
+.card:hover {
+    transform: translateX(-20px);
+    transform: rotateY(20);
+}
+.vh-100 {
 }
