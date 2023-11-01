@@ -120,4 +120,17 @@ h4 {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+} 
+p {
+    font-weight: 400;
+}
+#images {
+    width: 400px;
+    height: 400px;
+}
+.progress {
+    margin-top: 5rem;
+}
+#skills {
+    font-weight: 400;
 }
