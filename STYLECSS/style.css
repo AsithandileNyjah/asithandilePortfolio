@@ -28,11 +28,13 @@ h4 {
 #navbar {
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 .profile {
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+    border: solid gray;
 }
 
 .profile {
@@ -86,6 +88,4 @@ h4 {
 .card:hover {
     transform: translateX(-20px);
     transform: rotateY(20);
-}
-.vh-100 {
 }
