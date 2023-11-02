@@ -35,6 +35,9 @@ h4 {
     overflow: hidden;
     position: relative;
     border: solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .profile {
@@ -143,4 +146,25 @@ p {
     #headingOne {
         background-color: green;
     }
+}
+@keyframes movement {
+    0%{
+        transform: translateX(50px);
+       }
+       100%{
+           transform: translateX(50px);
+           transform: scaleX(1);
+       }
+}
+.welcome {
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    position: relative;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+#ScrollBTN {
+    text-align: center;
+    color: whitesmoke;
 }
