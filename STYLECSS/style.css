@@ -134,3 +134,13 @@ p {
 #skills {
     font-weight: 400;
 }
+@media only screen and (max-width: 750px) {
+    #headingOne {
+        background-color: green;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #headingOne {
+        background-color: green;
+    }
+}
