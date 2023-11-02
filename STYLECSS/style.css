@@ -137,10 +137,12 @@ p {
 @media only screen and (max-width: 750px) {
     #headingOne {
         background-color: green;
+        display: flex;
     }
 }
 @media only screen and (max-width: 350px) {
     #headingOne {
         background-color: green;
+        display: flex;
     }
 }
