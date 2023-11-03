@@ -146,6 +146,7 @@ p {
 @media only screen and (max-width: 350px) {
     #headingOne {
         background-color: green;
+        display: flexbox contents;
     }
 }
 @keyframes movement {
