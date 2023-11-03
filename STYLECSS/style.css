@@ -148,6 +148,10 @@ p {
         background-color: green;
         display: flexbox contents;
     }
+    .card {
+        width: fit-content;
+        display: flexbox;
+    }
 }
 @keyframes movement {
     0%{
