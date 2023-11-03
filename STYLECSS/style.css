@@ -169,3 +169,7 @@ p {
     text-align: center;
     color: whitesmoke;
 }
+.topIMG {
+    border-bottom: solid black;
+    border-radius: 75%;
+}
